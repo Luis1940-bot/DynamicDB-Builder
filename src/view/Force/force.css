@@ -1,0 +1,29 @@
+body{
+  background-color: #2b2b29;
+  color: #FFB802;
+  /* margin: 0; */
+  height: 200px;
+  width: 350px;
+  font-family:'Roboto', sans-serif;
+  font-size: 10px;
+  
+}
+
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+}
+
+.radio-container label {
+  display: flex;
+  align-items: left;
+  margin-left: 5px;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 5px;
+}

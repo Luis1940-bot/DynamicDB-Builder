@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DynamicBD-Builder</title>
+  <link rel="stylesheet" href="..//css/principal.css">
+</head>
+
+<body>
+  <!-- We are using Node.js <span id="node-version"></span>, -->
+  <!-- Chromium <span id="chrome-version"></span>, -->
+  <!-- and Electron <span id="electron-version"></span>. -->
+  <div class="div-info">
+    <p>👋</p>
+    <p id="info"></p>
+  </div>
+
+  <div id="root">
+    <div class="div-botones">
+      <input type="button" value="SYNC"><span id="type_force">Sincronización.</span>
+      <input type="button" value="PORT"><span id="type_port">3306</span>
+      <input type="button" value="TYPE BD"><span id="type_bd">MySQL</span>
+      <input type="button" value="MODELS"><span id="type_models">-</span>
+      <input type="button" value="RELATIONS"><span id="type_relations">-</span>
+    </div>
+    <!-- <div class="div-detalles">
+      <h1>detalles</h1>
+    </div> -->
+    <div class="div-modelos">
+      <h3>Modelos</h3>
+      <hr>
+      <div class="div-modelos-detail">
+
+      </div>
+    </div>
+    <div class="div-campos">
+      <h3>Campos</h3>
+      <hr>
+      <div class="div-campos-detail">
+
+      </div>
+    </div>
+    <div class="div-relaciones">
+      <h3>Relaciones</h3>
+      <hr>
+      <div class="div-relaciones-detail">
+
+      </div>
+    </div>
+    <div class="div-aceptar">
+      <input id="aceptar" type="button" value="ACEPTAR">
+    </div>
+  </div>
+
+</body>
+<script src="..//controllers/render.js"></script>
+
+
+
+</html>
